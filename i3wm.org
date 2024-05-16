@@ -1,0 +1,40 @@
+:PROPERTIES:
+:ID:       e01e5a67-cc70-496b-9b44-b22de1e076d1
+:END:
+#+title: i3wm
+#+date: 2024-05-10
+#+filetags: wm:windowsmanager:linux:i3
+
+* Index
+
+* Configurações do I3WM
+** Floating Modifier
+Por padrão a tecla ~$mod~ associada ao /Floating Modifier/ é a ~SUPER~, tecla essa associada com a tecla para gerenciar a /Windows Manager/ por completo. O padrão das demais UI/WM é utilizar a tecla *ALT* associada como ~M-~ ou ~Mod1~.
+*** Configuração da tecla
+#+begin_src
+#floating_modifier $mod
+floating_modifier Mod1
+#+end_src
+
+** Switch layout model
+Por padrão para alterar layouts do modelo do i3wm de exibição dos contêiners é utilizado três teclas:
+- ~M-Shift-w~
+- ~M-Shift-s~
+- ~M-Shift-e~
+Usando uma das funções do /i3wm/ que é ~toggle~, podemos criar uma tecla única para alterar entre eles sem gastar mais teclas. Essa tecla será definida como ~M-Shift-Tab~.
+*** Configuração da tecla
+#+begin_src
+bindsym $mod+Shift+Tab layout toggle all
+#+end_src
+
+** Resize window
+Ao tentar redimensionar uma janela é usado uma das funções de /estados/ do /i3wm/ onde é colocado a gente dentro de um isolamento de atalhos, cuja função, é fazer que a gente tenha atalhos diferentes da Workstation do i3wm para alguma coisa. Nesse caso, é usado para redimensionar. Podemos evitar o uso disso colocando teclas para o mesmo efeito. Originalmente era usado ~M-r~ para dar /resize/.
+*** Configuração das teclas
+#+begin_src
+bindsym $mod+Control Right resize grow width 5 px or 5 ppt
+bindsym $mod+Control Left resize shrink width 5 px or 5 ppt
+bindsym $mod+Control Up resize grow height 5 px or 5 ppt
+bindsym $mod+Control Down resize shrink height 5 px or 5 ppt
+#+end_src
+
+* I3status / I3blocks

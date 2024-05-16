@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       69572cb5-5ad6-4ad1-a56b-1c93672c6c5c
+:END:
+#+title: org-emacs
+#+date: 2024-04-26
+#+filetags: emacs:shortcurts
+
+* Formatação
+
+* Atalhos
+** Org
+** Roam
+** Agenda
+~C-<RET>~ ou ~M-x org-insert-heading-respect-content~ para adicionar o heading.
+~C-c C-s~ ou ~M-x ~org-schedule~ para adicionar o SCHEDULED. Você navega entre os dias segurando Shift e usando as setas. Depois adicione .+1d no final.
+~C-c C-t~ ou ~M-x org-todo para adicionar/substituir o todo-keyword do heading. Coloque TODO na primeira vez.
+~C-c C-x p~ ou ~M-x org-set-property~  para setar alguma :PROPERTIES:. Selecione STYLE e depois habit.
