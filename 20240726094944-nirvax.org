@@ -1,0 +1,46 @@
+:PROPERTIES:
+:ID:       913aa8cf-c513-4247-883e-b4f78e943904
+:END:
+#+title: nirvax
+#+FILETAGS: team:nirvax
+
+* Serviços Nirvax
+** Ideias de serviços
++ Sites por assinatura
++ Contrato EVM
++ Sites sobe orçamento
++ Analises de vulnerabilidades
++ Configuração e gerenciamento de servidores
++ Segurança para servidores
++ App mobiles
++ Bot Telegram, Whatsapp e Discord
++ Desenvolvimento de softwares
+
+** Projetos
+*** Semanais
++ Aulas
++ Tópicos gerais
+*** Mensais
++ Temporadas
++ Desafio
+*** Team
++ Servidor IRC
++ Plataforma de ensino
++ Blog de conteúdo
+*** Conjunto
++ Plataforma de ensino
+
+** Redes Sociais
+- ~Twitter~
+  @nvxteam
+- ~Github~
+  @nvxteam
+- ~Team Discord~
+  NirvaxTeam
+- ~Comunidade~
+  .gg/hellZ
+- ~E-mail~
+  contato@nirvax.xyz
+- ~Whatsapp~
+  --/--
++ __Em criação__.

@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       6f4c960c-68e4-4822-8c1a-f47b6ff8f4fd
+:END:
+#+title: ap_ia
+#+FILETAGS: hellz:aulas:private
+
+
+* Inicialização
+- Boas-vindas
+- Explicar objetivo
+
+* Explicar tipos
+- ~Explicar:~ I.A, C.A, aprendizado de máquina e rede neural;
+- ~Explicar~ diferença das meninas;
+
+** Aprendizado de máquina
+O rótulo (alvo) é processado através dos dados armazenados pelo algoritmo. O algoritmo processa
+o rótulo para obter a melhor ação possível dentro do que foi treinado.
+- ~1.~ o algoritmo recebe dados para o treinamento: com rótulos e conjuntos.
+- ~2.~ o modelo limpa dados duplicados, valores sem sentido e correção de tipográfia
+- ~3.~ cria padrões baseado nos dados e normaliza rótulos
+- ~4.~ converte os rótulos em valores númericos / vetores binários
+- ~5.~ modelo é treinado através de um dado como entrada e os rótulos que correspondem
+
+** Rede neural
+Uma estrutura de aprendizado onde o foco é imitar uma rede neural biológica de forma limitada.
+É mais complexa de explicar.
+- ~1.~ Os dasos de entrada são fornecidos
+- ~2.~ Cada nó processa o dado
+- ~3.~ A saída do primeiro nó é passado ao próximo para ser processado
+- ~4.~ É obtido a melhor resposta processada
+*** Explicar sobre autoconsciência
+
+** Inteligência Artificial
+- ~Explicar o que é I.A~
+- ~Explicar conceito de inteligência~

@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       54889e14-efc0-461b-8d14-3d9db1067409
+:END:
+#+title: PDFView (Emacs)
+#+date: [2024-04-19 Fri 11:25]
+- tags :: [[id:ca3c6f9b-ecf5-4ec9-954a-fdd6de57b579][Emacs]]
+- source :: [[https://github.com/vedang/pdf-tools?tab=readme-ov-file#keybindings-for-navigating-pdf-documents][Keybindings for navigating PDF documents (vedang/pdf-tools) - GitHub]]
+
+| Atalho      | Nome do Comando                         | Descrição                                 |
+|-------------+-----------------------------------------+-------------------------------------------|
+| <BACKSPACE> | pdf-view-scroll-down-or-previous-page   | Rola para baixo ou para a página anterior |
+| <SPACE>     | pdf-view-scroll-up-or-next-page         | Rola para cima ou para a página posterior |
+| C-n         | pdf-view-next-line-or-next-page         | Vai para a linha ou página posterior      |
+| C-p         | pdf-view-previous-line-or-previous-page | Vai para a linha ou página anterior       |
+| n           | pdf-view-next-page-command              | Vai para a página posterior               |
+| p           | pdf-view-previous-page-command          | Vai para a página anterior                |
+| C-f         |                                         | Rola para a direita ou para frente        |
+| C-b         |                                         | Rola para a esquerda ou para trás         |
+| < ou M-<    | beginning-of-buffer                     | Vai para o começo do PDF                  |
+| > ou M->    | end-of-buffer                           | Vai para o final do PDF                   |
+| C-s         |                                         | Procura para frente                       |
+| C-r         |                                         | Procura para trás                         |
+| M-g g       |                                         | Vai para a página especificada            |
+
